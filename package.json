@@ -1,0 +1,16 @@
+{
+  "name": "alh_form",
+  "version": "1.3.0",
+  "description": "A simple form validator",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
