@@ -80,10 +80,12 @@ exports.form = function(selector) {
     */
   function showError(type, name) {
     var $error = $('[data-error-for=' + name + ']');
+    var $input = $('input[name=' + name + ']');
     var text = ERRORS[type] + name;
 
     $error.text(text);
     $error.attr('data-error-showing', true);
+    $input.attr('data-error-showing', true);
   }
 
   // Attach the submit listener
